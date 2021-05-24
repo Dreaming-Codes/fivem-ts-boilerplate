@@ -1,0 +1,22 @@
+{
+  "name": "fivem-ts-boilerplate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "production": "webpack --env config=production",
+    "development": "webpack --env config=development"
+  },
+  "devDependencies": {
+    "@citizenfx/client": "^2.0.3985-1",
+    "@citizenfx/server": "^2.0.3985-1",
+    "esbuild-loader": "^2.13.1",
+    "typescript": "^4.2.4",
+    "webpack": "^5.37.1",
+    "webpack-cli": "^4.7.0"
+  },
+  "dependencies": {
+    "fivem-js": "https://github.com/d0p3t/fivem-js#development",
+    "json5": "^2.2.0"
+  }
+}

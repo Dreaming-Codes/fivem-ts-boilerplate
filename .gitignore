@@ -1,0 +1,6 @@
+.idea
+dist
+fivem-ts-boilerplate.iml
+
+# Project exclude paths
+/node_modules/
